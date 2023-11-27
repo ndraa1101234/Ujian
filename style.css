@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(bg.avif);
+    background-size: cover;
+    background-repeat: none;
+}
+
+/*judul dan logo*/
+
+.wrapper {
+    display: inline-flex;
+}
+
+.logo {
+    width: 20px;
+    margin-left: 30px;
+    align-items: left;
+}
+
+.judul {
+    display: inline-table;
+    margin: 17px 0 0 85px;
+    position: absolute;
+    font-family: cursive,'comic sans ms';
+    font-size: 25px;
+    padding-left: 15px;
+    font-weight: 40px;
+    color: #dc6601;
+    float: right;
+}
+
+/*menu-menu*/
+
+ nav ul li a {
+    color: #808080;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-family:'comic sans ms' ;
+    margin-top: 50px;
+    position: sticky;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+nav ul li {
+    float: left;
+    margin-top :20px;
+
+
+}
+
+nav ul {
+    margin-left:600px ;
+    list-style-type: none;
+    
+}
+
+nav {
+    border-bottom: 2px solid #fff;
+    text-decoration: none;
+    backdrop-filter: blur(15px);
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 1;
+}
+
+.menu {
+    float: right;
+}
+/*end navbar*/
+
+
+
+/*body*/
+
+
+/*Section home*/
+.T1 {
+    color: white;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 90px;
+    font-size: 45px;
+}
+
+.T2 {
+    font-size: 19px;
+    margin-left: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.warna {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 58px;
+    margin: 0 0 0 123px;
+    display: flex;
+}
+
+.pth {
+    color: #fff;
+}
+
+.mrh {
+    color: rgb(255, 0, 0);
+    padding-left: 15px;
+}
+
+
+
+/*Untuk section About*/
+
+.deskripsiABT {
+    margin-top:500px;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+}
+
+.gbrabt img {
+    width: 10px;
+    margin-left: 40px;
+    width: 380px;
+    border-radius: 50px;
+    display: inline-flex;
+}
+
+.tentang {
+    font-size: 30px;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    margin-top: 680px;
+    font-size: 60px;
+}
+
+.boxall {
+    display: inline-flex;
+}
+
+/*Kotak 1*/
+.box1{
+    width: 370px;
+    color: white;
+    border: 2px solid white;
+    backdrop-filter: blur(25px);
+    margin-left: 120px;
+    margin-top: 100px;
+    border-radius: 25px;
+    height: 370px;
+    text-align: center;
+}
+
+.namabox1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: cursive,'comic sans ms';
+}
+
+.deskripsi-box1 {
+    margin: 40px;
+}
+
+
+/*Kotak 2*/
+.box2 {
+    width: 370px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 25px;
+    height: 350px;
+    text-align: center;
+    margin: 100px 0 0 165px;
+}
+
+.namabox2 {
+    font-size: 35px;
+    margin: 20px 0 0 0;
+    font-family: cursive, 'comic sans ms';
+}
+
+.deskripsi-box2 {
+    margin: 20px;
+}
+
+/*box 3 */
+.box3 {
+    width: 370px;
+    color: white;
+    border: solid 2px white;
+    border-radius: 25px;
+    height: 350px;
+    text-align: center;
+    margin: 100px 0 0 170px;
+}
+
+.namabox3 {
+    font-size: 35px;
+    margin: 20px 0 0 0;
+    font-family: cursive, 'comic sans mc';
+}
+ .deskripsi-box3 {
+    margin: 50px;
+ }
+
+ #copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    margin-top: 50px;
+    color: #fff;
+ }
